@@ -1,45 +1,55 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-    font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav {
+main {
+    font-size: 1.6rem
+}
+
+.container {
+    border: 0.2rem red dotted;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* This creates CSS for individual boxes  */
+.box {
+    border: 0.2rem gray dotted;
+    padding: 1.0rem;
+    flex-basis: 20rem;
+    flex-grow: 1;
+    height: 10rem;
+
+}
+
+#boxA {
+    background-color: orange;
+}
+
+#boxB {
     background-color: green;
-    /* border: 2px gray dotted; */
-    width: 100vw;
-    height: 30px;
-
 }
 
-.sidebar {
-    background-color: palevioletred;
-    /* border: 2px gray dotted; */
-    height: 60vh;
-    width: 20%;
-    display: inline-block;
-    position: relative
+#boxC {
+    background-color: lightseagreen;
 }
 
-.main {
-    background-color: lightskyblue;
-    /* border: 2px gray dotted; */
-    height: 60vh;
-    width: 80%;
-    position: relative;
-    display: inline-block;
+#boxD {
+    background-color: grey;
 }
 
-.footer { 
+#boxE {
     background-color: goldenrod;
-    /* border: 2px gray dotted; */
 }
- 
-.label {
-    display: inline-block;
+
+#boxF {
+    background-color: pink;
 }
