@@ -3,53 +3,34 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     font-size: 62.5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-main {
-    font-size: 1.6rem
-}
-
 .container {
-    border: 0.2rem red dotted;
-    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
 }
-
-/* This creates CSS for individual boxes  */
-.box {
-    border: 0.2rem gray dotted;
-    padding: 1.0rem;
-    flex-basis: 20rem;
-    flex-grow: 1;
-    height: 10rem;
-
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
 }
-
-#boxA {
-    background-color: orange;
+.box1 {
+    background-color: cornflowerblue;
 }
-
-#boxB {
-    background-color: green;
+.box2 {
+    background-color: rebeccapurple;
 }
-
-#boxC {
-    background-color: lightseagreen;
-}
-
-#boxD {
-    background-color: grey;
-}
-
-#boxE {
+.box3 {
     background-color: goldenrod;
 }
-
-#boxF {
-    background-color: pink;
+.box4 {
+    background-color: bisque;
+}
+.box5 {
+    background-color: lightgreen;
+}
+.box6 {
+    background-color: darkslateblue;
 }
